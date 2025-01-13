@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		118C28032D354C350054899D /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118C28022D354C2E0054899D /* Movie.swift */; };
 		1199B05C2D35154C00805A72 /* NaverPayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1199B05B2D35154500805A72 /* NaverPayViewController.swift */; };
 		1199B05E2D35155900805A72 /* MoodiLikeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1199B05D2D35155000805A72 /* MoodiLikeViewController.swift */; };
 		11B76ED62D34EC8800BCE282 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B76ED52D34EC8800BCE282 /* AppDelegate.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		118C28022D354C2E0054899D /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		1199B05B2D35154500805A72 /* NaverPayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverPayViewController.swift; sourceTree = "<group>"; };
 		1199B05D2D35155000805A72 /* MoodiLikeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodiLikeViewController.swift; sourceTree = "<group>"; };
 		11B76ED22D34EC8800BCE282 /* CodeBasedMovieProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeBasedMovieProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +68,7 @@
 		11B76ED42D34EC8800BCE282 /* CodeBasedMovieProject */ = {
 			isa = PBXGroup;
 			children = (
+				118C28022D354C2E0054899D /* Movie.swift */,
 				1199B05D2D35155000805A72 /* MoodiLikeViewController.swift */,
 				1199B05B2D35154500805A72 /* NaverPayViewController.swift */,
 				11B76EF12D3506CE00BCE282 /* RootViewController.swift */,
@@ -164,6 +167,7 @@
 				1199B05E2D35155900805A72 /* MoodiLikeViewController.swift in Sources */,
 				11B76ED62D34EC8800BCE282 /* AppDelegate.swift in Sources */,
 				11B76EF02D34EF4700BCE282 /* ViewPresentableProtocol.swift in Sources */,
+				118C28032D354C350054899D /* Movie.swift in Sources */,
 				11B76ED82D34EC8800BCE282 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

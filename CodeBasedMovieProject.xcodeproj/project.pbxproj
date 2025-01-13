@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1199B05C2D35154C00805A72 /* NaverPayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1199B05B2D35154500805A72 /* NaverPayViewController.swift */; };
+		1199B05E2D35155900805A72 /* MoodiLikeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1199B05D2D35155000805A72 /* MoodiLikeViewController.swift */; };
 		11B76ED62D34EC8800BCE282 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B76ED52D34EC8800BCE282 /* AppDelegate.swift */; };
 		11B76ED82D34EC8800BCE282 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B76ED72D34EC8800BCE282 /* SceneDelegate.swift */; };
-		11B76EDA2D34EC8800BCE282 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B76ED92D34EC8800BCE282 /* ViewController.swift */; };
-		11B76EDD2D34EC8800BCE282 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 11B76EDC2D34EC8800BCE282 /* Base */; };
+		11B76EDA2D34EC8800BCE282 /* SeanFlixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B76ED92D34EC8800BCE282 /* SeanFlixViewController.swift */; };
 		11B76EDF2D34EC8A00BCE282 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11B76EDE2D34EC8A00BCE282 /* Assets.xcassets */; };
 		11B76EE22D34EC8A00BCE282 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 11B76EE12D34EC8A00BCE282 /* Base */; };
+		11B76EEB2D34ECE100BCE282 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 11B76EEA2D34ECE100BCE282 /* Then */; };
+		11B76EEE2D34ECEF00BCE282 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 11B76EED2D34ECEF00BCE282 /* SnapKit */; };
+		11B76EF02D34EF4700BCE282 /* ViewPresentableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B76EEF2D34EF3E00BCE282 /* ViewPresentableProtocol.swift */; };
+		11B76EF22D3506D400BCE282 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B76EF12D3506CE00BCE282 /* RootViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1199B05B2D35154500805A72 /* NaverPayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverPayViewController.swift; sourceTree = "<group>"; };
+		1199B05D2D35155000805A72 /* MoodiLikeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodiLikeViewController.swift; sourceTree = "<group>"; };
 		11B76ED22D34EC8800BCE282 /* CodeBasedMovieProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeBasedMovieProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11B76ED52D34EC8800BCE282 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11B76ED72D34EC8800BCE282 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		11B76ED92D34EC8800BCE282 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		11B76EDC2D34EC8800BCE282 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11B76ED92D34EC8800BCE282 /* SeanFlixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeanFlixViewController.swift; sourceTree = "<group>"; };
 		11B76EDE2D34EC8A00BCE282 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11B76EE12D34EC8A00BCE282 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11B76EE32D34EC8A00BCE282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11B76EEF2D34EF3E00BCE282 /* ViewPresentableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPresentableProtocol.swift; sourceTree = "<group>"; };
+		11B76EF12D3506CE00BCE282 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +39,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11B76EEB2D34ECE100BCE282 /* Then in Frameworks */,
+				11B76EEE2D34ECEF00BCE282 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,10 +66,13 @@
 		11B76ED42D34EC8800BCE282 /* CodeBasedMovieProject */ = {
 			isa = PBXGroup;
 			children = (
+				1199B05D2D35155000805A72 /* MoodiLikeViewController.swift */,
+				1199B05B2D35154500805A72 /* NaverPayViewController.swift */,
+				11B76EF12D3506CE00BCE282 /* RootViewController.swift */,
+				11B76EEF2D34EF3E00BCE282 /* ViewPresentableProtocol.swift */,
 				11B76ED52D34EC8800BCE282 /* AppDelegate.swift */,
 				11B76ED72D34EC8800BCE282 /* SceneDelegate.swift */,
-				11B76ED92D34EC8800BCE282 /* ViewController.swift */,
-				11B76EDB2D34EC8800BCE282 /* Main.storyboard */,
+				11B76ED92D34EC8800BCE282 /* SeanFlixViewController.swift */,
 				11B76EDE2D34EC8A00BCE282 /* Assets.xcassets */,
 				11B76EE02D34EC8A00BCE282 /* LaunchScreen.storyboard */,
 				11B76EE32D34EC8A00BCE282 /* Info.plist */,
@@ -83,6 +96,10 @@
 			dependencies = (
 			);
 			name = CodeBasedMovieProject;
+			packageProductDependencies = (
+				11B76EEA2D34ECE100BCE282 /* Then */,
+				11B76EED2D34ECEF00BCE282 /* SnapKit */,
+			);
 			productName = CodeBasedMovieProject;
 			productReference = 11B76ED22D34EC8800BCE282 /* CodeBasedMovieProject.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +128,10 @@
 				Base,
 			);
 			mainGroup = 11B76EC92D34EC8800BCE282;
+			packageReferences = (
+				11B76EE92D34ECE100BCE282 /* XCRemoteSwiftPackageReference "Then" */,
+				11B76EEC2D34ECEF00BCE282 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 11B76ED32D34EC8800BCE282 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +148,6 @@
 			files = (
 				11B76EDF2D34EC8A00BCE282 /* Assets.xcassets in Resources */,
 				11B76EE22D34EC8A00BCE282 /* Base in Resources */,
-				11B76EDD2D34EC8800BCE282 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +158,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11B76EDA2D34EC8800BCE282 /* ViewController.swift in Sources */,
+				1199B05C2D35154C00805A72 /* NaverPayViewController.swift in Sources */,
+				11B76EF22D3506D400BCE282 /* RootViewController.swift in Sources */,
+				11B76EDA2D34EC8800BCE282 /* SeanFlixViewController.swift in Sources */,
+				1199B05E2D35155900805A72 /* MoodiLikeViewController.swift in Sources */,
 				11B76ED62D34EC8800BCE282 /* AppDelegate.swift in Sources */,
+				11B76EF02D34EF4700BCE282 /* ViewPresentableProtocol.swift in Sources */,
 				11B76ED82D34EC8800BCE282 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +171,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		11B76EDB2D34EC8800BCE282 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				11B76EDC2D34EC8800BCE282 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		11B76EE02D34EC8A00BCE282 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,9 +313,8 @@
 				INFOPLIST_FILE = CodeBasedMovieProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,9 +322,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sean.SeSAC.Assignment.CodeBasedMovieProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -325,9 +344,8 @@
 				INFOPLIST_FILE = CodeBasedMovieProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,9 +353,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sean.SeSAC.Assignment.CodeBasedMovieProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -363,6 +385,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		11B76EE92D34ECE100BCE282 /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		11B76EEC2D34ECEF00BCE282 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		11B76EEA2D34ECE100BCE282 /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11B76EE92D34ECE100BCE282 /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+		11B76EED2D34ECEF00BCE282 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11B76EEC2D34ECEF00BCE282 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 11B76ECA2D34EC8800BCE282 /* Project object */;
 }
